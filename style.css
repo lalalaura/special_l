@@ -1,0 +1,70 @@
+
+body {
+  background-image: url('photo.jpg');
+ 
+  background-size: cover;
+  font-family: VT323;
+
+   background-repeat: no-repeat;
+   background-position: center top; 
+   background-blend-mode: lighten;
+}
+
+@font-face {
+  font-family: 'VT323', monospace;
+  src: url('https://fonts.googleapis.com/css?family=VT323'); 
+}
+
+
+
+body, html {
+	height: 100%;
+	font-family: VT323, monospace;
+}
+
+
+a {
+	font-family: VT323;
+	font-size: 20px;
+	line-height: 1.7;
+	font-weight: bold;
+	color: #ff1379;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #62ffcb;
+	text-shadow: 3px 2px blue;
+}
+
+
+
+
+#istoric {
+	
+	
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #ff1379;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+}
+h2 {font-size: 45px; 
+font-weight: bold;
+text-shadow: 3px 2px #ff1379;}
